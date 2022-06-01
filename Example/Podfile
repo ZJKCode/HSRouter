@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HSRouter_Example' do
+  pod 'HSRouter', :path => '../'
+
+  target 'HSRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
